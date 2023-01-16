@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+    <h1 id="title">
+      Microverse servay form
+    </h1>
+    <p id="description">
+      Thank you for taking the time to help us. keep learning
+    </p>
+    <form id="survey-form">
+      <div class="form-information">
+
+        <div class="name">
+          <label id="name-label" for="name">Name</label>
+          <input class="Form-information" id="name" type="text" placeholder="Your name" name="name" required><br/>    
+        </div>
+
+        <div class="email">
+          <label id="email-label" for="email">Email</label>
+          <input class="Form-information" id="email" type="email" placeholder="Your email" name="email" required><br/>
+        </div>
+
+        <div class="number">
+          <label id="number-label" for="number">Age</label>
+          <input class="Form-information" id="number" type="number" min="5" max="120" placeholder="Your number" name="Age"required>
+    
+        </div>
+
+      </div>
+      
+      <select id="dropdown" required>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
+      <div>
+        <input type="radio" name="gender" value="male">
+        <input type="radio" name="gender" value="femal">
+      </div>
+
+      <input type="checkbox"  value="Bike">
+      <input type="checkbox"  value="Car">
+      <input type="checkbox"  value="Bus">
+      
+      <textarea></textarea>
+      <div>
+        <button class="submit-button" id="submit" type="submit">
+          Submit
+        </button>
+      </div>
+      
+    </form>
+  </body>
+</html>

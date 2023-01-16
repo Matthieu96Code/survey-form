@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(155, 96, 211);
+}
+
+.form-information{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px 30px 30px 30px;
+    background-color: rgb(28, 8, 46);
+}
+
+.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px 30px 30px 30px; 
+    color: aliceblue;   
+}
+
+.email{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px 30px 30px 30px;   
+    color: aliceblue;    
+}
+
+.number{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px 30px 30px 30px;   
+    color: aliceblue;    
+}
